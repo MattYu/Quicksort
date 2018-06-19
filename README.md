@@ -1,6 +1,8 @@
- # Quicksort Algorithm implementation with heavy optimizations as described in Shaffer and Algorithm I (Princeton Press) 
+ # Quicksort Algorithm implementation with heavy optimizations 
+ 
+
  	 
-- Performs an initial O(N) in-place stochastic shuffle to amortized odds of pathological case to 1:~10-100million (low cost shuffle; no significant difference in run time) for all inputs.
+- Performs an initial O(N) in-place stochastic shuffle to amortized odds of pathological case to 1:~10-100million (low cost shuffle; no significant difference in run time) for all inputs. (As described in Shaffer and Algorithm I (Princeton Press))
 - Keeps track of depth recursion and reshuffle inputs if exceed an arbitrarily define value (Constant*logN) to guarantee O(NlogN) worst case.   
  	   
 ## Runtime improvements
